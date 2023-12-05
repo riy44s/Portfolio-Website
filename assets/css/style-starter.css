@@ -11725,4 +11725,14 @@ div#small-dialog iframe {
 .my-mfp-slide-bottom.mfp-removing.mfp-bg {
   opacity: 0; }
 
+  .w3l-services .title-big {
+    margin-top: 4rem; /* Adjust the margin-top as needed */
+}
+
+/* Media query for screens smaller than 576px (typical mobile devices) */
+@media (max-width: 576px) {
+    .w3l-services .title-big {
+        margin-top: 6rem; /* Adjust the margin-top for smaller screens */
+    }
+}
 /*# sourceMappingURL=style-starter.css.map */
