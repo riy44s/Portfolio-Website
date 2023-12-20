@@ -11735,4 +11735,13 @@ div#small-dialog iframe {
         margin-top: 6rem; /* Adjust the margin-top for smaller screens */
     }
 }
+.custom-text {
+  font-size: 25px; /* Adjust the font size as needed */
+}
+.custom-image {
+  margin-bottom: 40px; /* Adjust the margin-bottom as needed */
+}
+.custom-video {
+  margin-bottom: 20px; /* Adjust the margin-bottom as needed */
+}
 /*# sourceMappingURL=style-starter.css.map */
