@@ -11594,6 +11594,12 @@ img.mfp-img {
   word-wrap: break-word;
   padding-right: 36px; }
 
+  .contact-info {
+    display: flex;
+    align-items: center;
+}
+
+
 .mfp-image-holder .mfp-content {
   max-width: 100%; }
 
