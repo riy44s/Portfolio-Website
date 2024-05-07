@@ -99,7 +99,11 @@
                 <div class="row">
                     <div class="col-lg-10">
                         <div class="position-relative">
-                            <img src="Screenshot (155).png" alt="" class="radius-image img-fluid">
+                          <video controls width="100%" height="auto">
+                            <source src="multiplayer-video.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                            <!-- <img src="Screenshot (155).png" alt="" class="radius-image img-fluid"> -->
                             <div class="col-lg-12 mt-lg-0 mt-5">
                               <!-- <h5 class="title-small mb-2">Education Qualities</h5> -->
                               <!-- <h3 class="title-big">10th,</h3> -->
@@ -130,10 +134,7 @@
 In the provided Unity script for a Photon Unity Networking (PUN) multiplayer game, the JoinButtonPressed method is called when a player attempts to join or create a room. When this happens, the script calls PhotonNetwork.JoinOrCreateRoom, specifying the room name to join or create. Upon successful room joining, the OnJoinedRoom callback is triggered. In this callback, the game sets up the player's environment by deactivating the room camera (roomCam), spawning the player character using SpawnPlayer method, and starting the bot spawning process with SpawnBot. Additionally, the player's nickname is set, and custom properties such as kills and deaths are synchronized using Photon's networking features. The SpawnPlayer method instantiates the player character, sets up its properties, and adjusts the game environment accordingly. The SpawnBot method is responsible for spawning AI-controlled bots in predefined locations, and the Timer method is invoked to handle the game timer, updating the time remaining in the match. If the timer reaches zero, the GameOver method is called, freezing the game and displaying a game-over UI.</p>
                             <!-- <a href="#download" class="btn btn-style btn-primary mt-lg-5 mt-4">Play</a> -->
                             <img src="Screenshot (154).png" alt="" class="radius-image img-fluid custom-image">
-                            <video controls width="100%" height="auto">
-                              <source src="multiplayer-video.mp4" type="video/mp4">
-                              Your browser does not support the video tag.
-                          </video>
+                            
                         </div>
                       </div>
                   </div>
